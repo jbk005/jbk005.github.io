@@ -1,0 +1,46 @@
+{
+    "name": "Marek Grzyb",
+    "proffesions": ["Game Developer", "Programmer"],
+    "about_me": "Hi! I'm Marek, a game developer and programmer from Poland, and I've been making games since I was 12. I am currently an IT Technician student at <a href=\"http://zsee.walbrzych.pl/\">Zespół Szkół Politechnicznych \"Energetyk\" w Wałbrzychu</a><br/><br/>I love finding out how things work and visualizing them in a creative way using computer technology.<br/><br/>Here you can see some of the projects I've had the opportunity of contributing to, and some of the personal-fun-things I've been working on. I have a strong perseverance for learning new things and taking on challenges, and I always like to put some extra time in polishing my creations, to make sure the creative vision is achieved in the best possible way. I'm especially focused on network programming. I've always been extremely curious in the technical side of games, and sometimes this curiosity has led me to projects I cannot legally publish anywhere...<br/><br/>Sometimes I also make websites, like this one. If you have any questions please feel free to contact me &#128521;",
+    "email": "grzybdev@gmail.com",
+    "workingExperience": [],
+    "education": [
+        {
+            "name": "Zespół Szkół Politechnicznych \"Energetyk\" w Wałbrzychu",
+            "url": "http://zsee.walbrzych.pl",
+            "notes": [
+                "Finishing in April 2020"
+            ]
+        }
+    ],
+    "humanLanguages": [
+        {
+            "name": "English",
+            "description": "Good speaking & writing skills"
+        },
+        {
+            "name": "Polish",
+            "description": "Native"
+        }
+    ],
+    "experienceDescriptionCard1": {
+        "name": "Game Development",
+        "content": "There is no part of the game development pipeline that I have not touched, and while every aspect of it is fun, I particularly enjoy network and gameplay programming."
+    },
+    "experienceDescriptionCard2": {
+        "name": "Programming",
+        "content": "I love making useful apps, services and solutions. For me it is fun, while my focus is on game development, I am also making prototypes of services, scripts, and other things that can make my (and your!) life easier."
+    },
+    "projects": [],
+    "startTime": "2019-12-01",
+    "clientsCount": 0,
+    "awardsCount": 0,
+    "socials": {
+        "facebook": null,
+        "twitter": "https://twitter.com/GrzybDev",
+        "instagram": null,
+        "linkedin": "https://www.linkedin.com/in/grzybdev/",
+        "twitch": null,
+        "youtube": null
+    }
+}
