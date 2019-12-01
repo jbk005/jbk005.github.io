@@ -1,68 +1,57 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# [grzybdev.github.io](https://grzybdev.github.io) - My Website
+> This is **source code** for my website hosted on *Github Pages* available [here](https://grzybdev.github.io)
 
-## Available Scripts
+## Table of Contents
+* [General Information](#general-information)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Features](#features)
+* [Status](#status)
+* [Inspiration](#inspiration)
+* [License](#license)
+* [Contact](#contact)
 
-In the project directory, you can run:
+## General Information
+This project was created by [me](https://github.com/GrzybDev), and is configured for my needs (this project isn't designed for general use), due to [**MIT license**](#license) you can modify it for your needs and use it for any purpose.
 
-### `npm start`
+## Technologies
+* Built on top of [React](https://reactjs.org/)
+* Uses [Font Awesome](https://fontawesome.com/)
+* Uses [Bootstrap](https://react-bootstrap.github.io/) and [mdbootstrap](https://mdbootstrap.com/)
+* Uses [react-router](https://reacttraining.com/react-router/web/guides/quick-start)
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Also uses:
+- [react-countup](https://github.com/glennreyes/react-countup)
+- [react-is-visible](https://github.com/lessp/react-is-visible)
+- [react-particles-js](https://www.npmjs.com/package/react-particles-js)
+- [react-scroll](https://www.npmjs.com/package/react-scroll)
+- [react-typed](https://github.com/ssbeefeater/react-typed)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Setup
+After cloning this repository, run `npm install` to install all required dependencies.
 
-### `npm test`
+- To launch this project in development mode run `npm start`
+- To build this project run `npm run build`
+- To build **and** deploy this project to GitHub Pages run `npm run deploy`
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Features
+- Material Design
 
-### `npm run build`
+* About Section
+* Experience Section
+* Projects Section
+* Contact Section
+* Resume
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Inspiration
+I took a lot of inspiration from:
+- [Leah Linder](http://leah-lindner.com/) Portfolio
+- [Hugo Peters](http://hugo.fyi/) Portfolio
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## License
+> You can check out the full license [here](./LICENSE.md)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This project is licensed under the terms of the **MIT** license.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Contact
+Created by [@GrzybDev](https://grzybdev.github.io) - feel free to contact me!
