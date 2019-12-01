@@ -2,6 +2,7 @@
   "name": "grzybdev.github.io",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://grzybdev.github.io",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-brands-svg-icons": "^5.11.2",
@@ -22,6 +23,8 @@
     "react-typed": "^1.2.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build -b master",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
