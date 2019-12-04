@@ -2,14 +2,21 @@ import React, { Component } from "react";
 import "./Projects.css";
 import { Container, CardColumns, Card, Button, Modal } from "react-bootstrap";
 import config from "../Configs/config.json";
-import ImgSuspense from "img-suspense";
 import MDSpinner from "react-md-spinner";
 import { withIsVisible } from "react-is-visible/lib/withIsVisible";
+import ReactMarkdown from "react-markdown/with-html";
+import { isString } from "util";
 
 class Projects extends Component {
 
     state = {
         activeModal: -1
+    }
+
+    constructor() {
+        super();
+
+        this.lockedProjects = [];
     }
 
     showProject(id) {
@@ -29,7 +36,17 @@ class Projects extends Component {
 
             const modalButtons = entry.links.map(entry => (
                 <Button key={entry.title} href={entry.link}>{entry.title}</Button>
-            ))
+            ));
+
+            const projectDescriptionId = "projectDescription_" + index;
+
+            if (!this.lockedProjects.includes(index)) {
+                this.lockedProjects.push(index);
+
+                fetch(entry.description)
+                    .then(response => response.text())
+                    .then(data => this.setState({ [projectDescriptionId]: data }));
+            }
 
             return (<Card key={entry.title}>
                 {entry.logoUrl ? <Card.Img variant="top" src={entry.logoUrl} /> : null}
@@ -45,13 +62,11 @@ class Projects extends Component {
                         <Modal.Title>{entry.title}</Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
-                        {entry.logoUrl
-                        ? <ImgSuspense
-                            className="ModalLogo"
-                            src={entry.logoUrl}
-                            fallback={<MDSpinner size={64} />} />
-                        : null}
-                        {entry.description}
+                        {isString(this.state[projectDescriptionId])
+                            ? <ReactMarkdown
+                                source={this.state[projectDescriptionId]}
+                                escapeHtml={false} />
+                            : <MDSpinner size={64} className="spinner" />}
                     </Modal.Body>
                     <Modal.Footer>
                         {modalButtons}
@@ -70,7 +85,7 @@ class Projects extends Component {
                 <Container className={isVisible ? "Visible" : ""}>
                     <h1 className="sectionTitle">Projects</h1>
                     <p className="sectionDesc">Click on "view more" to get more detailed description and links</p>
-                    <hr/>
+                    <hr />
 
                     {config.projects.length === 0
                         ? (
