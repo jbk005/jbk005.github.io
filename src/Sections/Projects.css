@@ -66,3 +66,7 @@
 #Projects .noProjects p {
     margin-bottom: 0px;
 }
+
+.modal-body .spinner {
+    text-align: center;
+}
