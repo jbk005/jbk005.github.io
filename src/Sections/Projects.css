@@ -70,3 +70,7 @@
 .modal-body .spinner {
     text-align: center;
 }
+
+.modal-body {
+    font-family: "Open Sans", sans-serif;
+}
