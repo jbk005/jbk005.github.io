@@ -46,6 +46,17 @@
                     "link": "https://github.com/GrzybDev/Brainfuck/releases/latest"
                 }
             ]
+        },
+        {
+            "title": "Progress Tracker",
+            "shortDescription": "Public progress tracker for every developer!",
+            "description": "https://raw.githubusercontent.com/GrzybDev/ProgressTracker/master/README.md",
+            "links": [
+                {
+                    "title": "Source Code",
+                    "link": "https://github.com/GrzybDev/ProgressTracker"
+                }
+            ]
         }
     ],
     "startTime": "2019-12-01",
