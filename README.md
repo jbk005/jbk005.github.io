@@ -26,6 +26,7 @@ Also uses:
 - [react-particles-js](https://www.npmjs.com/package/react-particles-js)
 - [react-scroll](https://www.npmjs.com/package/react-scroll)
 - [react-typed](https://github.com/ssbeefeater/react-typed)
+- [react-markdown](https://github.com/rexxars/react-markdown)
 
 ## Setup
 After cloning this repository, run `npm install` to install all required dependencies.
