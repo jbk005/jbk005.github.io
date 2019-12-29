@@ -60,6 +60,17 @@
                     "link": "https://github.com/GrzybDev/ProgressTracker"
                 }
             ]
+        },
+        {
+            "title": "Jazz2Converter",
+            "shortDescription": "Jazz Jackrabbit 2 assets converter written in Python.",
+            "description": "https://raw.githubusercontent.com/GrzybDev/Jazz2Converter/master/README.md",
+            "links": [
+                {
+                    "title": "Source Code",
+                    "link": "https://github.com/Jazz2Converter/ProgressTracker"
+                }
+            ]
         }
     ],
     "startTime": "2019-12-01",
