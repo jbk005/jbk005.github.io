@@ -38,9 +38,28 @@ class Counters extends Component {
     }
 
     getExperienceTime() {
-        const timeDiffirence = moment(config.startTime, "YYYY-MM-DD").fromNow();
+        const startTime = moment(config.startTime, "YYYY-MM-DD");
+        const currentTime = moment()
 
-        return this.getLayout(faCalendar, timeDiffirence.replace(/\D/g, ""), timeDiffirence.replace(/\d/g, "").replace("ago", "of experience").substring(1), "experience");
+        const diffirence = {
+            year: currentTime.diff(startTime, "years"),
+            months: currentTime.diff(startTime, "months"),
+            days: currentTime.diff(startTime, "days"),
+            hours: currentTime.diff(startTime, "hours"),
+            minutes: currentTime.diff(startTime, "minutes"),
+            seconds: currentTime.diff(startTime, "seconds")
+        }
+
+        if (diffirence.year > 0)
+            return this.getLayout(faCalendar, diffirence.year, (diffirence.year === 1 ? "year" : "years") + " of experience", "experience");
+        else if (diffirence.months > 0)
+            return this.getLayout(faCalendar, diffirence.months, (diffirence.months === 1 ? "month" : "months") + " of experience", "experience");
+        else if (diffirence.days > 0)
+            return this.getLayout(faCalendar, diffirence.days, (diffirence.days === 1 ? "day" : "days") + " of experience", "experience");
+        else if (diffirence.minutes > 0)
+            return this.getLayout(faCalendar, diffirence.minutes, (diffirence.minutes === 1 ? "minute" : "minutes") + " of experience", "experience");
+        else
+            return this.getLayout(faCalendar, diffirence.seconds, (diffirence.seconds === 1 ? "second" : "seconds") + " of experience", "experience");
     }
 
     getClientsCount() {
