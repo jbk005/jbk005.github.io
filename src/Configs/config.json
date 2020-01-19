@@ -52,14 +52,9 @@
         },
         {
             "title": "Progress Tracker",
-            "shortDescription": "Public progress tracker for every developer!",
-            "description": "https://raw.githubusercontent.com/GrzybDev/ProgressTracker/master/README.md",
-            "links": [
-                {
-                    "title": "Source Code",
-                    "link": "https://github.com/GrzybDev/ProgressTracker"
-                }
-            ]
+            "shortDescription": "Public progress tracker for every developer!\n<i>Note: <b>Project abandoned for now</b></i>",
+            "description": "data:,***Note: Project abandoned for now***",
+            "links": []
         },
         {
             "title": "Jazz2Converter",
