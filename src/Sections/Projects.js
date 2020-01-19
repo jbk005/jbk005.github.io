@@ -53,7 +53,7 @@ class Projects extends Component {
 
                 <Card.Body>
                     <Card.Title>{entry.title}</Card.Title>
-                    <Card.Text>{entry.shortDescription}</Card.Text>
+                    <Card.Text className="shortDesc" dangerouslySetInnerHTML={{__html: entry.shortDescription}} />
                     <Button variant="primary" onClick={() => { show(index) }}>View more</Button>
                 </Card.Body>
 
