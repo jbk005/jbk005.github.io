@@ -53,13 +53,8 @@
         {
             "title": "Jazz2",
             "shortDescription": "Remake of <b>Jazz Jackrabbit 2</b> game from 1998 made in <b><i>Unity</b></i>",
-            "description": "https://raw.githubusercontent.com/GrzybDev/Jazz2/master/README.md",
-            "links": [
-                {
-                    "title": "Source Code",
-                    "link": "https://github.com/GrzybDev/Jazz2"
-                }
-            ]
+            "description": "data:,***Note: Due to questionable legality of this project, source code unfortunately are not available***",
+            "links": []
         },
         {
             "title": "Jazz2Converter",
