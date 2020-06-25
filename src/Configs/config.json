@@ -6,13 +6,24 @@
     ],
     "about_me": "Hi! I'm Marek, a game developer and programmer from Poland, and I've been making games since I was 12. I am currently an IT Technician student at <a href=\"http://zsee.walbrzych.pl/\">Zespół Szkół Politechnicznych \"Energetyk\" w Wałbrzychu</a><br/><br/>I love finding out how things work and visualizing them in a creative way using computer technology.<br/><br/>Here you can see some of the projects I've had the opportunity of contributing to, and some of the personal-fun-things I've been working on. I have a strong perseverance for learning new things and taking on challenges, and I always like to put some extra time in polishing my creations, to make sure the creative vision is achieved in the best possible way. I'm especially focused on network programming. I've always been extremely curious in the technical side of games, and sometimes this curiosity has led me to projects I cannot legally publish anywhere...<br/><br/>Sometimes I also make websites, like this one. If you have any questions please feel free to contact me &#128521;",
     "email": "grzybdev@gmail.com",
-    "workingExperience": [],
+    "workingExperience": [
+        {
+            "name": "PeCet Serwis",
+            "url": "http://www.pecet.com.pl/",
+            "notes": [
+                "school practises",
+                "Installing and configuring operating systems and applications",
+                "Designing, installing and diagnosing local computer networks",
+                "Configuration of servers, network devices and VLANs"
+            ]
+        }
+    ],
     "education": [
         {
             "name": "Zespół Szkół Politechnicznych \"Energetyk\" w Wałbrzychu",
             "url": "http://zsee.walbrzych.pl",
             "notes": [
-                "Finishing in April 2020"
+                "Finished High School with IT Technician degree"
             ]
         }
     ],
@@ -69,6 +80,28 @@
                 {
                     "title": "Source Code",
                     "link": "https://github.com/GrzybDev/Jazz2Converter"
+                }
+            ]
+        },
+        {
+            "title": "Battlefield: Bad Company 2 Master Server Emulator",
+            "shortDescription": "An Master Server Emulator for Battlefield: Bad Company 2",
+            "description": "https://raw.githubusercontent.com/GrzybDev/BFBC2_MasterServer/master/README.md",
+            "links": [
+                {
+                    "title": "Source Code",
+                    "link": "https://github.com/GrzybDev/BFBC2_MasterServer"
+                }
+            ]
+        },
+        {
+            "title": "HQSolver",
+            "shortDescription": "Tool for predicting answers in HQ Trivia!",
+            "description": "https://raw.githubusercontent.com/GrzybDev/HQSolver/master/README.md",
+            "links": [
+                {
+                    "title": "Source Code",
+                    "link": "https://github.com/GrzybDev/HQSolver"
                 }
             ]
         },
