@@ -163,7 +163,7 @@ class Experience extends Component {
                             <ImgSuspense
                                 src={entry.logo}
                                 fallback={<MDSpinner />} />
-                            <h6>{entry.name}</h6>
+                            <h6 class="entryName">{entry.name}</h6>
                         </Col>
                     </OverlayTrigger>
                 )
@@ -173,7 +173,7 @@ class Experience extends Component {
                         placement="top"
                         overlay={<Tooltip>{entry.description}</Tooltip>}>
                         <Col className="entry" key={entry.name}>
-                            <h6>{entry.name}</h6>
+                            <h6 class="entryName">{entry.name}</h6>
                         </Col>
                     </OverlayTrigger>
                 )
