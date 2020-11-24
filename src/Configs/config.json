@@ -1,29 +1,56 @@
 {
     "name": "Bharath Kumar",
     "proffesions": [
-        "Game Developer",
-        "Programmer"
+        "Mechanical Engineer",
+        "Python Programmer"
     ],
-    "about_me": "Hi! I'm Bharath Kumar, a game developer and programmer from Poland, and I've been making games since I was 12. I am currently an IT Technician student at <a href=\"http://zsee.walbrzych.pl/\">Zespół Szkół Politechnicznych \"Energetyk\" w Wałbrzychu</a><br/><br/>I love finding out how things work and visualizing them in a creative way using computer technology.<br/><br/>Here you can see some of the projects I've had the opportunity of contributing to, and some of the personal-fun-things I've been working on. I have a strong perseverance for learning new things and taking on challenges, and I always like to put some extra time in polishing my creations, to make sure the creative vision is achieved in the best possible way. I'm especially focused on network programming. I've always been extremely curious in the technical side of games, and sometimes this curiosity has led me to projects I cannot legally publish anywhere...<br/><br/>Sometimes I also make websites, like this one. If you have any questions please feel free to contact me &#128521;",
-    "email": "grzybdev@gmail.com",
+    "about_me": "Hi! I'm Bharath kumar, a Mechanical Engineer from India, and I've been interested in how do things work. I am currently working in <a href=\"https://poorvikamobiles.com/\"> Poorvika Mobiles Pvt Ltd</a><br/><br/>I love finding out how things work and visualizing them in a creative way using computer technology.<br/><br/>Here you can see some of the projects I've had the opportunity of contributing to, and some of the personal-fun-things I've been working on. I have a strong perseverance for learning new things and taking on challenges, and I always like to put some extra time in polishing my creations, to make sure the creative vision is achieved in the best possible way. I'm especially focused on python programming and also a mechanical product works. I've always been extremely curious in Design Software do math, and sometimes this curiosity has led me to programming I cannot legally publish anywhere...<br/><br/>Sometimes I also make websites, like this one. I found this when I looking for new project ideas. If you have any questions please feel free to contact me &#128521;",
+    "email": "jbharathkumar770@gmail.com",
     "workingExperience": [
         {
-            "name": "PeCet Serwis",
-            "url": "http://www.pecet.com.pl/",
+            "name": "Poorvika Mobiles Pvt Ltd",
+            "url": "http://www.poorvikamobiles.com/",
             "notes": [
-                "school practises",
+                "Executive Web support",
                 "Installing and configuring operating systems and applications",
-                "Designing, installing and diagnosing local computer networks",
-                "Configuration of servers, network devices and VLANs"
+                "Installing and diagnosing local computer networks",
+                "Tech Products Reviews"
+            ]
+        },
+        {
+            "name": "Ashok Leyland, Ennore",
+            "url": "https://www.ashokleyland.com/en/",
+            "notes": [
+                "InPlant Training",
+                "period: 7days"
+            ]
+        },
+        {
+            "name": "NLC India Limited",
+            "url": "https://www.nlcindia.com/new_website/index.htm",
+            "notes": [
+                "InPlant Training",
+                "period: 7days"
             ]
         }
     ],
     "education": [
         {
-            "name": "Zespół Szkół Politechnicznych \"Energetyk\" w Wałbrzychu",
-            "url": "http://zsee.walbrzych.pl",
+            "name": "Velammal Institute Of Technology",
             "notes": [
-                "Finished High School with IT Technician degree"
+                "B.E. in Mechanical Engineering 2019"
+            ]
+        },
+        {
+            "name": "Vel Tech Polytechnic College",
+            "notes": [
+                "Diploma in Mechanical Engineering 2016"
+            ]
+        },
+        {
+            "name": "Vellayan Chettiyar Higher Secondary School",
+            "notes": [
+                "Secondary School 2013"
             ]
         }
     ],
@@ -37,90 +64,108 @@
             "description": "Native"
         }
     ],
-    "experienceDescriptionCard1": {
-        "name": "Game Development",
-        "content": "There is no part of the game development pipeline that I have not touched, and while every aspect of it is fun, I particularly enjoy network and gameplay programming."
-    },
-    "experienceDescriptionCard2": {
-        "name": "Programming",
-        "content": "I love making useful apps, services and solutions. For me it is fun, while my focus is on game development, I am also making prototypes of services, scripts, and other things that can make my (and your!) life easier."
-    },
+    "Hobbies": [
+        {
+            "name": "",
+            "notes": [
+                "Custom Rom Maintainer",
+                " Reading Tech News",
+                "Motorcycle riding"
+            ]
+        }
+    ],
+    "Honors": [
+        {
+            "name": "",
+            "notes": [
+                "Won 1st Price in CAD Modeling conducted by Velammal Institute of Technology.",
+                "Best Manufacturing Award in Go-Kart event in Hyderabad by SKDC",
+                "Certified from Google by completing fundamentals digital marketing.",
+                "Certified as Six Sigma Green Belt Professional by Intelligence Quality."
+            ]
+        }
+    ],
     "projects": [
         {
-            "title": "Brainfuck Interpreter",
-            "shortDescription": "Brainfuck Interpreter written in C++",
-            "description": "https://raw.githubusercontent.com/GrzybDev/Brainfuck/master/README.md",
+            "title": "Student-Portal",
+            "shortDescription": "Student-Portal written in Python",
+            "description":  "data:,***This app is bundled with 8 different modules with their own use cases starting from a simple To Do list to a wikipedia integration. And everything is tied together with simple intuitive layout for an easy workflow.***",
             "links": [
                 {
                     "title": "Source Code",
-                    "link": "https://github.com/GrzybDev/Brainfuck"
+                    "link": "https://github.com/jbk005/Student-Portal"
                 },
                 {
                     "title": "Download",
-                    "link": "https://github.com/GrzybDev/Brainfuck/releases/latest"
+                    "link": "https://codeload.github.com/jbk005/Student-Portal/zip/main"
                 }
             ]
         },
         {
-            "title": "GrzybMic",
-            "shortDescription": "Tool that allows you to change your phone into microphone for your PC!",
+            "title": "Custom Rom Maintainer",
+            "shortDescription": "A free and open-source OS for various devices, based on the Android mobile platform.",
             "description": "/Markdown/GrzybMic.md",
             "links": [
                 {
-                    "title": "Project Page",
-                    "link": "https://grzybmic.web.app"
+                    "title": "Candy Rom",
+                    "link": "https://candyroms.org/"
                 }
             ]
         },
         {
-            "title": "Jazz2Converter",
-            "shortDescription": "Jazz Jackrabbit 2 assets converter written in Python.",
-            "description": "https://raw.githubusercontent.com/GrzybDev/Jazz2Converter/master/README.md",
+            "title": "Random Rassword Generator",
+            "shortDescription": "Random Rassword Generator using Python Modules.",
+            "description": "https://raw.githubusercontent.com/jbk005/Random_password_generator/main/README.md",
             "links": [
                 {
                     "title": "Source Code",
-                    "link": "https://github.com/GrzybDev/Jazz2Converter"
+                    "link": "https://github.com/jbk005/Random_password_generator"
                 }
             ]
         },
         {
-            "title": "Battlefield: Bad Company 2 Master Server Emulator",
-            "shortDescription": "An Master Server Emulator for Battlefield: Bad Company 2",
-            "description": "https://raw.githubusercontent.com/GrzybDev/BFBC2_MasterServer/master/README.md",
+            "title": "I Am Ironman Face",
+            "shortDescription": "Ironman face in Python insprie by instagram post. :)",
+            "description": "https://raw.githubusercontent.com/jbk005/I_am_ironman/main/README.md",
             "links": [
                 {
                     "title": "Source Code",
-                    "link": "https://github.com/GrzybDev/BFBC2_MasterServer"
+                    "link": "https://github.com/jbk005/I_am_ironman"
                 }
             ]
         },
         {
-            "title": "HQSolver",
-            "shortDescription": "Tool for predicting answers in HQ Trivia!",
-            "description": "https://raw.githubusercontent.com/GrzybDev/HQSolver/master/README.md",
+            "title": "Simple Calculator",
+            "shortDescription": "My Second code in Python",
+            "description": "https://raw.githubusercontent.com/jbk005/Simple_calculator/main/README.md",
             "links": [
                 {
                     "title": "Source Code",
-                    "link": "https://github.com/GrzybDev/HQSolver"
+                    "link": "https://github.com/jbk005/Simple_calculator"
                 }
             ]
         },
         {
-            "title": "It's Who You Know!",
-            "shortDescription": "Remake of <b>That's You!</b> Playstation 4 exclusive PlayLink title!",
-            "description": "data:,***Note: Due to questionable legality of this project, source code unfortunately are not available***",
-            "links": []
+            "title": "Hey, It's THIS PAGE!",
+            "shortDescription": "This project was created by me, to Know how a JS, CSS, React works.",
+            "description": "https://raw.githubusercontent.com/jbk005/jbk005.github.io/source/README.md",
+            "links": [
+                {
+                    "title": "Source Code",
+                    "link": "https://github.com/jbk005/jbk005.github.io"
+                }
+            ]
         }
     ],
-    "startTime": "2019-12-01",
+    "startTime": "2020-11-24",
     "clientsCount": 0,
     "awardsCount": 0,
     "socials": {
-        "facebook": null,
-        "twitter": "https://twitter.com/GrzybDev",
-        "instagram": null,
-        "linkedin": "https://www.linkedin.com/in/grzybdev/",
+        "facebook": "https://www.facebook.com/jbharath.kumar.005",
+        "twitter": "https://twitter.com/JBK_005",
+        "instagram": "https://www.instagram.com/stranger_is_not_an_evil/",
+        "linkedin": "https://www.linkedin.com/in/jbk005/",
         "twitch": null,
-        "youtube": null
+        "youtube": "https://www.youtube.com/c/JBK005"
     }
 }

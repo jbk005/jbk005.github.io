@@ -2,19 +2,15 @@ import React, { Component, Fragment } from "react";
 import "./Experience.css";
 import { Container, CardColumns, Card, Row, Col, Tooltip, OverlayTrigger } from "react-bootstrap";
 import ImgSuspense from "img-suspense";
-import cppLogo from "../Assets/logos/cpp_logo.png";
-import csharpLogo from "../Assets/logos/csharp_logo.png";
+import cppLogo from "../Assets/logos/cero_logo.png";
+import csharpLogo from "../Assets/logos/autocad_logo.png";
 import pythonLogo from "../Assets/logos/python_logo.png";
 import MDSpinner from "react-md-spinner";
-import htmlLogo from "../Assets/logos/html_logo.png";
-import cssLogo from "../Assets/logos/css_logo.png";
-import jsLogo from "../Assets/logos/js_logo.png";
-import tsLogo from "../Assets/logos/ts_logo.png";
 import mysqlLogo from "../Assets/logos/mysql_logo.png";
-import mongodbLogo from "../Assets/logos/mongodb_logo.png";
+import mongodbLogo from "../Assets/logos/django_logo.png";
 import config from "../Configs/config.json";
-import unityLogo from "../Assets/logos/unity_logo.png";
-import unrealLogo from "../Assets/logos/ue_logo.png";
+import unityLogo from "../Assets/logos/linux_logo.png";
+import unrealLogo from "../Assets/logos/windows_logo.png";
 import awsLogo from "../Assets/logos/aws_logo.png";
 import azureLogo from "../Assets/logos/azure_logo.png";
 import firebaseLogo from "../Assets/logos/firebase_logo.png";
@@ -23,7 +19,7 @@ import blenderLogo from "../Assets/logos/blender_logo.png";
 import gimpLogo from "../Assets/logos/gimp_logo.png";
 import gitLogo from "../Assets/logos/git_logo.png";
 import pycharmLogo from "../Assets/logos/pycharm_logo.png";
-import qtLogo from "../Assets/logos/qt_logo.png";
+import qtLogo from "../Assets/logos/xl_logo.png";
 import vsLogo from "../Assets/logos/vs_logo.png";
 import Counters from "../Components/Counters/main";
 import { withIsVisible } from "react-is-visible";
@@ -34,13 +30,13 @@ class Experience extends Component {
         general: [
             {
                 logo: cppLogo,
-                name: "C++",
-                description: "Somewhat experienced"
+                name: "PTC Creo",
+                description: "Advanced"
             },
             {
                 logo: csharpLogo,
-                name: "C#",
-                description: "Advanced"
+                name: "Auto CAD",
+                description: "Somewhat experienced"
             },
             {
                 logo: pythonLogo,
@@ -50,34 +46,14 @@ class Experience extends Component {
         ],
         web: [
             {
-                logo: htmlLogo,
-                name: "HTML",
-                description: "Advanced"
-            },
-            {
-                logo: cssLogo,
-                name: "CSS",
+                logo: mysqlLogo,
+                name: "MySQL",
                 description: "Beginner"
             },
             {
-                logo: jsLogo,
-                name: "JS",
-                description: "Somewhat experienced"
-            },
-            {
-                logo: tsLogo,
-                name: "TS",
-                description: "Somewhat experienced"
-            },
-            {
-                logo: mysqlLogo,
-                name: "MySQL",
-                description: "Advanced"
-            },
-            {
                 logo: mongodbLogo,
-                name: "MongoDB",
-                description: "Somewhat experienced"
+                name: "Django",
+                description: "Beginner"
             },
         ]
     }
@@ -85,13 +61,13 @@ class Experience extends Component {
     enginesBinding = [
         {
             logo: unityLogo,
-            name: "Unity",
-            description: "Advanced"
+            name: "Linux",
+            description: "Somewhat experienced"
         },
         {
             logo: unrealLogo,
-            name: "Unreal Engine",
-            description: "Beginner"
+            name: "Microsoft Windows",
+            description: "Advanced"
         }
     ]
 
@@ -122,7 +98,7 @@ class Experience extends Component {
         {
             logo: androidStudioLogo,
             name: "Android Studio",
-            description: "Somewhat experienced"
+            description: "Beginner"
         },
         {
             logo: pycharmLogo,
@@ -131,13 +107,13 @@ class Experience extends Component {
         },
         {
             logo: qtLogo,
-            name: "Qt",
-            description: "Beginner"
+            name: "Excel",
+            description: "Somewhat experienced"
         },
         {
             logo: gitLogo,
             name: "Git",
-            description: "Advanced"
+            description: "Somewhat experienced"
         },
         {
             logo: blenderLogo,
@@ -263,10 +239,10 @@ class Experience extends Component {
                         {this.getCardLayout("Programming Languages", "multiple", [{ title: "General", data: this.getEntries(this.languagesBinding.general) }, { title: "Web", data: this.getEntries(this.languagesBinding.web) }])}
                         {this.getCardLayout("Human Languages", "multiple", this.getEntries(config.humanLanguages), true)}
                         {this.getCardLayout("Working Experience", "list", this.getExperience(config.workingExperience, true))}
-                        {this.getCardLayout(config.experienceDescriptionCard1.name, "text", config.experienceDescriptionCard1.content)}
-                        {this.getCardLayout(config.experienceDescriptionCard2.name, "text", config.experienceDescriptionCard2.content)}
+                        {this.getCardLayout("Hobbies", "list", this.getExperience(config.Hobbies))}
+                        {this.getCardLayout("Honors", "list", this.getExperience(config.Honors))}
                         {this.getCardLayout("Education", "list", this.getExperience(config.education))}
-                        {this.getCardLayout("Engines", "multiple", this.getEntries(this.enginesBinding), true)}
+                        {this.getCardLayout("Operating System", "multiple", this.getEntries(this.enginesBinding), true)}
                         {this.getCardLayout("Services", "multiple", this.getEntries(this.servicesBinding), true)}
                         {this.getCardLayout("Software", "multiple", this.getEntries(this.softwareBinding), true)}
                     </CardColumns>

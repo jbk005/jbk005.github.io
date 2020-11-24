@@ -19,7 +19,7 @@ class Footer extends Component {
         return (
             <footer className="page-footer font-small blue">
                 <div className={`footer-copyright text-center-py-3 ${isVisible ? "Visible" : ""}`}>
-                    &copy; {this.getCopyrightYear()} by Marek Grzyb
+                    &copy; {this.getCopyrightYear()} by BHARATH KUMAR .J
                 </div>
             </footer>
         )
