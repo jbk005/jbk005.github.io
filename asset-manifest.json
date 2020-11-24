@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a8f4c17f.chunk.css",
-    "main.js": "/static/js/main.c8b6d53f.chunk.js",
-    "main.js.map": "/static/js/main.c8b6d53f.chunk.js.map",
+    "main.js": "/static/js/main.5925de4b.chunk.js",
+    "main.js.map": "/static/js/main.5925de4b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.7c147bb9.js",
     "runtime-main.js.map": "/static/js/runtime-main.7c147bb9.js.map",
     "static/js/2.9af7acf8.chunk.js": "/static/js/2.9af7acf8.chunk.js",
@@ -19,7 +19,6 @@
     "static/css/main.a8f4c17f.chunk.css.map": "/static/css/main.a8f4c17f.chunk.css.map",
     "static/js/2.9af7acf8.chunk.js.LICENSE.txt": "/static/js/2.9af7acf8.chunk.js.LICENSE.txt",
     "static/js/3.445698a8.chunk.js.LICENSE.txt": "/static/js/3.445698a8.chunk.js.LICENSE.txt",
-    "static/media/JBK_CV.0dd03ab7.pdf": "/static/media/JBK_CV.0dd03ab7.pdf",
     "static/media/androidstudio_logo.946b54ab.png": "/static/media/androidstudio_logo.946b54ab.png",
     "static/media/mdb.css": "/static/media/arrow_right.0897f985.svg",
     "static/media/autocad_logo.9efd95e2.png": "/static/media/autocad_logo.9efd95e2.png",
@@ -31,6 +30,7 @@
     "static/media/firebase_logo.733a92d9.png": "/static/media/firebase_logo.733a92d9.png",
     "static/media/gimp_logo.33c3e40b.png": "/static/media/gimp_logo.33c3e40b.png",
     "static/media/git_logo.9610d7a3.png": "/static/media/git_logo.9610d7a3.png",
+    "static/media/jbk_CV.0dd03ab7.pdf": "/static/media/jbk_CV.0dd03ab7.pdf",
     "static/media/linux_logo.27c55c0d.png": "/static/media/linux_logo.27c55c0d.png",
     "static/media/mysql_logo.ab89a6ef.png": "/static/media/mysql_logo.ab89a6ef.png",
     "static/media/pycharm_logo.de0be0ea.png": "/static/media/pycharm_logo.de0be0ea.png",
@@ -45,6 +45,6 @@
     "static/css/3.8a6229e7.chunk.css",
     "static/js/3.445698a8.chunk.js",
     "static/css/main.a8f4c17f.chunk.css",
-    "static/js/main.c8b6d53f.chunk.js"
+    "static/js/main.5925de4b.chunk.js"
   ]
 }
