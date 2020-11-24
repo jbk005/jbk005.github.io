@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Single Page Apps for GitHub Pages</title>
-    <script type="text/javascript">
+    
         // Single Page Apps for GitHub Pages
         // https://github.com/rafrex/spa-github-pages
         // Copyright (c) 2016 Rafael Pedicini, licensed under the MIT License
@@ -24,16 +24,15 @@
         // https://username.github.io/repo-name/one/two?a=b&c=d#qwe becomes
         // https://username.github.io/repo-name/?p=/one/two&q=a=b~and~c=d#qwe
         // Otherwise, leave segmentCount as 0.
-        var segmentCount = 1;
-
-        var l = window.location;
-        l.replace(
-            l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-            l.pathname.split('/').slice(0, 1 + segmentCount).join('/') + '/?p=/' +
-            l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
-            (l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-            l.hash
-        );
+        <script type = "text/javascript" > ! function(i) {
+            if (i.search) {
+                var l = {};
+                i.search.slice(1).split("&").forEach(function(i) {
+                    var a = i.split("=");
+                    l[a[0]] = a.slice(1).join("=").replace(/~and~/g, "&")
+                }), void 0 !== l.p && window.history.replaceState(null, null, i.pathname.slice(0, -1) + (l.p || "") + (l.q ? "?" + l.q : "") + i.hash)
+            }
+        }(window.location)
 
     </script>
 </head>
@@ -42,3 +41,4 @@
 </body>
 
 </html>
+
