@@ -1,44 +1,22 @@
-GrzybMic
+JBK005
 ========
-> Tool that allows you to change your phone into microphone to your PC!
+> This is an AOSP based project.
 
 
 ## Table of Contents
-* [General Information](#general-information)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [License](#license)
-* [Credits](#credits)
+* General-information
+* Details
+* credits
 
 ## General Information
-This project is fully written in C#, utilising Xamarin for mobile client and .Net Core 3.1 for server.
+The CandyRoms Team is proud to present Candy 10 (Android 10), the fruit of our hard work… which just so happens to be our hobby 😉 .
 
-It aims to provide ability to use your mobile phone as microphone for PC, by sending PCM-encoded voice data directly to PC using UDP protocol.
+Candy is based on AOSP (the Android Open Source Project). We use GZOSP for the ROM base, with CAF (Code Aurora Forums) hardware support added in. Our goal is to enhance battery life and performance, while bringing an ever-expanding, but practical customization level to the user experience.
 
-## Technologies
-* Written in C#
-* Mobile clients are built using Xamarin
-* Server clients are built using .Net Core 3.1
-* Make use of external tools:
-    * [ffplay](https://www.ffmpeg.org/)
-    * [V-Cable (Windows)](https://www.vb-audio.com/Cable/)
-
-## Setup
-For setup guide please visit project page located [here](https://grzybmic.web.app)
-
-## Features
-* Transmitting microphone input from mobile device to PC
-* Mute ability
-* Easy to setup
-* Doesn't rely on system-specific code, it is designed to run on every system.
-
-## Status
-Project is finished, but in case of any major bug, crash or so, I'll update it.
-
-## License
-For any licensing questions please contact me via email [grzybdev@gmail.com](mailto:grzybdev@gmail.com)
+## Details
+This is a Custom Rom Project which i did 3 years back
+Now i discontinue from that project due to device change after that i stop working on it
+Those files are deleted :( but source is still in https://github.com/CandyRoms
 
 ## Credits
-Main Programmer/Developer - Marek Grzyb (@GrzybDev)
+Main Programmer/Developer - BHARATH KUMAR .J (@jbk005)
