@@ -1,5 +1,5 @@
 import { Component } from "react";
-import ResumePDF from "../Assets/logos/linux_logo.png";
+import ResumePDF from "../Assets/jbk_CV.pdf";
 
 class Resume extends Component {
     render() {
