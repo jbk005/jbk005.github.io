@@ -1,5 +1,5 @@
-# [grzybdev.github.io](https://grzybdev.github.io) - My Website
-> This is **source code** for my website hosted on *Github Pages* available [here](https://grzybdev.github.io)
+# [jbk005.github.io](https://jbk005.github.io) - My Website
+> This is **source code** for my website hosted on *Github Pages* available [here](https://jbk005.github.io)
 
 ## Table of Contents
 * [General Information](#general-information)
@@ -12,7 +12,7 @@
 * [Contact](#contact)
 
 ## General Information
-This project was created by [me](https://github.com/GrzybDev), and is configured for my needs (this project isn't designed for general use), due to [**MIT license**](#license) you can modify it for your needs and use it for any purpose.
+This project was created by [me](https://github.com/jbk005), and is configured for my needs (this project isn't designed for general use), due to [**MIT license**](#license) you can modify it for your needs and use it for any purpose.
 
 ## Technologies
 * Built on top of [React](https://reactjs.org/)
@@ -55,4 +55,4 @@ I took a lot of inspiration from:
 This project is licensed under the terms of the **MIT** license.
 
 ## Contact
-Created by [@GrzybDev](https://grzybdev.github.io) - feel free to contact me!
+Created by [@jbk005](https://jbk005.github.io) - feel free to contact me!

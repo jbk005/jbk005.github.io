@@ -7,7 +7,7 @@ class Preloader extends Component {
         return (
             <div className="Preloader">
                 <MDSpinner size={64} />
-                <h1 className="Text">Please wait...</h1>
+                <h1 className="Text">I'm Loading...</h1>
             </div>
         );
     }

@@ -1,9 +1,10 @@
 {
-  "name": "grzybdev.github.io",
+  "name": "jbk005.github.io",
   "version": "1.2.0",
   "private": true,
-  "homepage": "https://grzybdev.github.io",
+  "homepage": "https://jbk005.github.io",
   "dependencies": {
+    "@actions/core": "^1.2.6",
     "@fortawesome/fontawesome-svg-core": "^1.2.29",
     "@fortawesome/free-brands-svg-icons": "^5.13.1",
     "@fortawesome/free-solid-svg-icons": "^5.13.1",
