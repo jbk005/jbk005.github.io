@@ -234,6 +234,7 @@ class Experience extends Component {
                 <Container className={isVisible ? "Visible" : ""}>
                     <h1 className="sectionTitle">Experience</h1>
                     <p className="sectionDesc">You can also view my resume (in PDF) <a href="/resume">here</a></p>
+                    
 
                     <CardColumns>
                         {this.getCardLayout("Programming Languages", "multiple", [{ title: "General", data: this.getEntries(this.languagesBinding.general) }, { title: "Web", data: this.getEntries(this.languagesBinding.web) }])}

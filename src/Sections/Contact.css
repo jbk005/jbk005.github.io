@@ -5,7 +5,7 @@
 
 #Contact .sectionContent a {
     border-bottom: 1px dashed white;
-    color: white;
+    color: rgb(241, 12, 12);
     font-weight: bold;
     transition-duration: 250ms;
 }
@@ -16,13 +16,13 @@
 }
 
 #Contact .SocialIcons svg {
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 0px 24px;
     transition-duration: 500ms;
 }
 
 #Contact .SocialIcons svg:hover {
-    color: #9E9E9E;
+    color: #ff2020;
 }
 
 #Contact .sectionTitle {

@@ -3,12 +3,12 @@
 }
 
 #Projects {
-    background: #212121;
+    background: #000000;
     padding: 16px 0px;
 }
 
 #Projects hr {
-    border-top: 1px solid white;
+    border-top: 2px solid rgb(243, 0, 0);
 }
 
 #Projects .card-columns {

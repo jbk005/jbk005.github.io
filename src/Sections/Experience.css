@@ -1,5 +1,5 @@
 #Experience {
-    background: #00695C;
+    background: #000000;
     color: black;
     padding-top: 16px;
 }
@@ -17,7 +17,7 @@
 }
 
 #Experience .sectionDesc {
-    color: white;
+    color: rgb(255, 255, 255);
     opacity: 0;
     text-align: center;
     transform: translateY(200px);
@@ -30,7 +30,7 @@
 }
 
 #Experience .sectionDesc a {
-    color: white;
+    color: rgb(138, 138, 138);
     font-weight: bold;
     transition-duration: 250ms;
 }

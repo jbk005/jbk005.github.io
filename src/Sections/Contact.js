@@ -28,8 +28,8 @@ class Contact extends Component {
             <section id="Contact">
                 <Container className={isVisible ? "Visible" : ""}>
                     <h1 className="sectionTitle">Contact</h1>
-                    <p className="sectionContent">Feel free to send me a message here: <a href={`mailto:${config.email}`}>{config.email}</a>, I'll try to respond as quick as I can!<br/>I'm also on these social media things, if you need me there:</p>
-
+                    <p className="sectionContent">Feel free to send me a  <a href={`mailto:${config.email}`}>Email</a>, I'll try to respond as quick as I can!<br/>I'm also on these social media things, if you need me there:</p>
+                    
                     <div className="SocialIcons">
                         {this.getSocialLink("Facebook", config.socials.facebook, faFacebook)}
                         {this.getSocialLink("Twitter", config.socials.twitter, faTwitter)}
