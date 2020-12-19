@@ -4,7 +4,7 @@
     position: fixed;
     opacity: 0;
     right: 16px;
-    transition-duration: 500ms;
+    transition-duration: 700ms;
     z-index: 2;
 }
 
@@ -15,4 +15,4 @@
 
 .BackToTop.Visible {
     opacity: 10;
-}
+} 

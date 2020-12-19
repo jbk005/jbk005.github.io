@@ -1,59 +1,101 @@
-#Contact {
-    padding: 16px 0px;
+.social-media-div {
+  font-size: 2em;
+}
+
+.icon-button {
+  margin-bottom: 10px;
+}
+.sidebar {
+    width: 200px;
+    float: left;
+    background: #eee;
+}
+
+.icon-button i {
+  color: white;
+  border-radius: 2.6rem;
+  cursor: pointer;
+  display: inline-block;
+  align-items: center;
+  font-size: 1.3rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  margin: 0 5px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  width: 2.6rem;
+  margin-bottom: 10px;
+  transition: 0.2s ease-in;
+}
+
+.facebook i {
+  background-color: #3b5998;
+}
+
+.linkedin i {
+  background-color: #0e76a8;
+}
+
+.github i {
+  background-color: #333;
+}
+
+.gitlab i {
+  background-color: #fca326;
+}
+
+.google i {
+  background-color: #0F9D58;
+}
+
+.envelope i {
+  background-color: #e61414;
+}
+
+.twitter i {
+  background-color: #1da1f2;
+}
+
+.medium i {
+  background-color: rgb(156, 156, 156);
+}
+
+.stack-overflow i {
+  background-color: #f48024;
+}
+
+.instagram i {
+  background-color:  #f56040;
+}
+
+.youtube i {
+  background-color: #ff0000;
+}
+
+/* Hover Transition */
+.twitter i:hover,
+.google i:hover,
+.gitlab i:hover,
+.github i:hover,
+.linkedin i:hover,
+.facebook i:hover,
+.instagram i:hover,
+.stack-overflow i:hover,
+.youtube i:hover,
+.envelope i:hover,
+.medium i:hover{
+  background-color: rgb(0, 0, 0);
+}
+
+/* Media Query */
+@media (max-width: 7680px) {
+  .social-media-div {
     text-align: center;
-}
-
-#Contact .sectionContent a {
-    border-bottom: 1px dashed white;
-    color: rgb(241, 12, 12);
-    font-weight: bold;
-    transition-duration: 250ms;
-}
-
-#Contact .sectionContent a:hover {
-    color: #BDBDBD;
-    border-bottom: 1px dotted white;
-}
-
-#Contact .SocialIcons svg {
-    color: rgb(255, 255, 255);
-    margin: 0px 24px;
-    transition-duration: 500ms;
-}
-
-#Contact .SocialIcons svg:hover {
-    color: #ff2020;
-}
-
-#Contact .sectionTitle {
-    opacity: 0;
-    transform: translateX(-250px);
-    transition-duration: 1s;
-}
-
-#Contact .sectionContent {
-    opacity: 0;
-    transform: translateX(250px);
-    transition-duration: 1s;
-}
-
-#Contact .SocialIcons {
-    opacity: 0;
-    transform: translateY(50px);
-    transition-duration: 1s;
-}
-
-#Contact .Visible .sectionTitle {
-    opacity: 1;
-    transform: translateX(0px);
-}
-
-#Contact .Visible .sectionContent {
-    opacity: 1;
-    transform: translateX(0px);
-}
-
-#Contact .Visible .SocialIcons {
-    opacity: 1;
-    transform: translateY(0px);
+  }
 }
