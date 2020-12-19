@@ -29,8 +29,9 @@ const socialMediaLinks = {
     instagram: "https://www.instagram.com/stranger_is_not_an_evil/",
     facebook: "https://www.facebook.com/jbharath.kumar.005",
     medium: "https://medium.com/@jbk005",
-    stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
-    youtube: "https://www.youtube.com/c/JBK005"
+    youtube: "https://www.youtube.com/c/JBK005",
+    twitter: "https://twitter.com/JBK_005"
+    
     // Instagram and Twitter are also supported in the links!
   };  
 
