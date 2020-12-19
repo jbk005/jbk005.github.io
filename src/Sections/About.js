@@ -24,7 +24,7 @@ class About extends Component {
                             <ImgSuspense
                                 className="Selfie"
                                 src={photoOfMe}
-                                fallback={<MDSpinner size={48} />} />
+                                fallback={<MDSpinner size={8} />} />
 
                             <div className="Text">
                                 <p>It's me!</p>

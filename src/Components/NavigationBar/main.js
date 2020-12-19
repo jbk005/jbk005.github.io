@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import config from "../../Configs/config.json";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faUser, faStar, faCode, faIdCard, faFileAlt } from "@fortawesome/free-solid-svg-icons";
+import { faHome, faUser, faStar, faCode, faIdCard } from "@fortawesome/free-solid-svg-icons";
 import "./main.css";
 import { animateScroll } from 'react-scroll'
 
@@ -31,7 +31,7 @@ class NavigationBar extends Component {
                         {this.getLink("Experience", faStar)}
                         {this.getLink("Projects", faCode)}
                         {this.getLink("Contact", faIdCard)}
-                        <Nav.Link href="/resume"><FontAwesomeIcon icon={faFileAlt} />Resume</Nav.Link>
+                        
                     </Nav>
                 </Navbar.Collapse>
                 <Navbar.Brand onClick={() => animateScroll.scrollToTop()}>{config.name}</Navbar.Brand>

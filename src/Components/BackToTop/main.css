@@ -1,6 +1,6 @@
 .BackToTop {
     bottom: 16px;
-    color: white;
+    color: rgb(255, 255, 255);
     position: fixed;
     opacity: 0;
     right: 16px;
@@ -14,5 +14,5 @@
 }
 
 .BackToTop.Visible {
-    opacity: 1;
+    opacity: 10;
 }

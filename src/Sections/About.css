@@ -1,6 +1,6 @@
 #About {
     background: rgb(34,68,244);
-    background: radial-gradient(circle, rgba(34,68,244,1) 0%, rgba(249,26,26,1) 100%); 
+    background: radial-gradient(circle, rgba(34,68,244,1) 0%, rgba(249,26,26,1) 80%); 
     padding-top: 32px;
 }
 
@@ -21,7 +21,7 @@
     justify-content: center;
     transform: translateX(-250px);
     transition-duration: 1s;
-    width: 100%;
+    width: 150%;
 }
 
 #About .Content.Visible .LeftSide {

@@ -1,4 +1,6 @@
 import React, { Component, Fragment } from "react";
+import { greeting } from "../Router";
+import Button from "../Components/button/Button";
 import "./Experience.css";
 import { Container, CardColumns, Card, Row, Col, Tooltip, OverlayTrigger } from "react-bootstrap";
 import ImgSuspense from "img-suspense";
@@ -233,11 +235,18 @@ class Experience extends Component {
             <section id="Experience">
                 <Container className={isVisible ? "Visible" : ""}>
                     <h1 className="sectionTitle">Experience</h1>
-                    <p className="sectionDesc">You can also view my resume (in PDF) <a href="/resume">here</a></p>
+                    
+                    <div className="button-greeting-div">
+                         <Button
+                         text="See my resume"
+                         newTab={true}
+                          href={greeting.resumeLink}
+                        />
+                    </div>
                     
 
                     <CardColumns>
-                        {this.getCardLayout("Programming Languages", "multiple", [{ title: "General", data: this.getEntries(this.languagesBinding.general) }, { title: "Web", data: this.getEntries(this.languagesBinding.web) }])}
+                        {this.getCardLayout("Skills", "multiple", [{ title: "General", data: this.getEntries(this.languagesBinding.general) }, { title: "Web", data: this.getEntries(this.languagesBinding.web) }])}
                         {this.getCardLayout("Human Languages", "multiple", this.getEntries(config.humanLanguages), true)}
                         {this.getCardLayout("Working Experience", "list", this.getExperience(config.workingExperience, true))}
                         {this.getCardLayout("Hobbies", "list", this.getExperience(config.Hobbies))}
@@ -255,4 +264,4 @@ class Experience extends Component {
     }
 }
 
-export default withIsVisible(Experience);
+export default withIsVisible(Experience, greeting);
