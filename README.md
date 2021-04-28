@@ -45,9 +45,8 @@ After cloning this repository, run `npm install` to install all required depende
 * Resume
 
 ## Inspiration
-I took a lot of inspiration from:
-- [Leah Linder](http://leah-lindner.com/) Portfolio
-- [Hugo Peters](http://hugo.fyi/) Portfolio
+I used a Project from:
+[@Marek Grzyb](https://grzybdev.github.io/)
 
 ## License
 > You can check out the full license [here](./LICENSE.md)
@@ -55,4 +54,4 @@ I took a lot of inspiration from:
 This project is licensed under the terms of the **MIT** license.
 
 ## Contact
-Created by [@jbk005](https://jbk005.github.io) - feel free to contact me!
+Modified by [@jbk005](https://jbk005.github.io) - feel free to contact me!
